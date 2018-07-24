@@ -16,16 +16,3 @@ for line in sentence:
             cypherText = cypherText + ch
             
             #print( "character " + ch + " could not be read" )
-words = str.split(cypherText)
-x = 0
-y = 0
-
-diff = []
-
-for y in range(len(words) ):
-
-    diff.append("")
-    for x in range( len(words[y])):
-        ##print("x : " + str(x) + ", y : " + str(y) + ", letter : ", words[y][x])
-        diff[y] += (str(ord(words[y][x]) - ord(words[y][0])))
-        
