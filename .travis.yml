@@ -4,4 +4,4 @@ cahce: pip
 before_install:
     - pip install -r requirements.txt
 script: 
-    - python ccypher.py 
+    - python ccypher.py < input.io
